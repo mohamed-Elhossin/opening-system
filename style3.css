@@ -1,0 +1,28 @@
+body{
+    background-color: rgba(24, 24, 24, 0.986);
+    color:white;
+}
+table{
+    color: white;
+}
+
+.sessions{
+    border: .2px solid white;
+
+}
+.rows{
+cursor: pointer;
+color: white;
+font-weight: bold;
+}
+.rows:hover{
+    background: linear-gradient(rgb(66, 44, 44) , rgb(29, 17, 17));
+}
+.names{
+    transition: all 0.5ms;
+}
+.rows:hover .names{
+transform: scale(1.5,1.5);
+transition: all 0.5s;
+
+}
